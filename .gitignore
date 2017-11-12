@@ -1,0 +1,6 @@
+__pycache__/*
+venvproj5/*
+cache_contents.json
+creds.json
+quote_posts2.csv
+secret_data.py

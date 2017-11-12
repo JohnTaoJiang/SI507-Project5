@@ -1,1 +1,11 @@
 Put your Project 5 brief explanation, as directed, here.
+
+I am accessing the Tumblr API and gathering:
+- 20 posts for each request I send
+- For each result of Quote Posts response, I am accessing the post id, post url, date posted and the summary
+- For each result of Tagged Method, I am accessing the blog name, post url, tags and summary
+- I'll write 2 CSV files:
+- "quote_posts.csv": 4 columns including id, post_url, date and summary
+- "tagged_posts.csv": 4 columns including blog_name, post_url, tags, summary
+- URL for the API: "https://api.tumblr.com/v2/blog/{blog-identifier}/posts[/type]?api_key={key}&[optional-params=]", "https://api.tumblr.com/v2/tagged"
+
